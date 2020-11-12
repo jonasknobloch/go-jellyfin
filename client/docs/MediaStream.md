@@ -1,0 +1,57 @@
+# MediaStream
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Codec** | Pointer to **string** | Gets or sets the codec. | [optional] 
+**CodecTag** | Pointer to **string** | Gets or sets the codec tag. | [optional] 
+**Language** | Pointer to **string** | Gets or sets the language. | [optional] 
+**ColorRange** | Pointer to **string** | Gets or sets the color range. | [optional] 
+**ColorSpace** | Pointer to **string** | Gets or sets the color space. | [optional] 
+**ColorTransfer** | Pointer to **string** | Gets or sets the color transfer. | [optional] 
+**ColorPrimaries** | Pointer to **string** | Gets or sets the color primaries. | [optional] 
+**Comment** | Pointer to **string** | Gets or sets the comment. | [optional] 
+**TimeBase** | Pointer to **string** | Gets or sets the time base. | [optional] 
+**CodecTimeBase** | Pointer to **string** | Gets or sets the codec time base. | [optional] 
+**Title** | Pointer to **string** | Gets or sets the title. | [optional] 
+**VideoRange** | Pointer to **string** | Gets or sets the video range. | [optional] [readonly] 
+**LocalizedUndefined** | Pointer to **string** |  | [optional] 
+**LocalizedDefault** | Pointer to **string** |  | [optional] 
+**LocalizedForced** | Pointer to **string** |  | [optional] 
+**DisplayTitle** | Pointer to **string** |  | [optional] [readonly] 
+**NalLengthSize** | Pointer to **string** |  | [optional] 
+**IsInterlaced** | **bool** | Gets or sets a value indicating whether this instance is interlaced. | [optional] 
+**IsAVC** | Pointer to **bool** |  | [optional] 
+**ChannelLayout** | Pointer to **string** | Gets or sets the channel layout. | [optional] 
+**BitRate** | Pointer to **int32** | Gets or sets the bit rate. | [optional] 
+**BitDepth** | Pointer to **int32** | Gets or sets the bit depth. | [optional] 
+**RefFrames** | Pointer to **int32** | Gets or sets the reference frames. | [optional] 
+**PacketLength** | Pointer to **int32** | Gets or sets the length of the packet. | [optional] 
+**Channels** | Pointer to **int32** | Gets or sets the channels. | [optional] 
+**SampleRate** | Pointer to **int32** | Gets or sets the sample rate. | [optional] 
+**IsDefault** | **bool** | Gets or sets a value indicating whether this instance is default. | [optional] 
+**IsForced** | **bool** | Gets or sets a value indicating whether this instance is forced. | [optional] 
+**Height** | Pointer to **int32** | Gets or sets the height. | [optional] 
+**Width** | Pointer to **int32** | Gets or sets the width. | [optional] 
+**AverageFrameRate** | Pointer to **float32** | Gets or sets the average frame rate. | [optional] 
+**RealFrameRate** | Pointer to **float32** | Gets or sets the real frame rate. | [optional] 
+**Profile** | Pointer to **string** | Gets or sets the profile. | [optional] 
+**Type** | [**MediaStreamType**](MediaStreamType.md) |  | [optional] 
+**AspectRatio** | Pointer to **string** | Gets or sets the aspect ratio. | [optional] 
+**Index** | **int32** | Gets or sets the index. | [optional] 
+**Score** | Pointer to **int32** | Gets or sets the score. | [optional] 
+**IsExternal** | **bool** | Gets or sets a value indicating whether this instance is external. | [optional] 
+**DeliveryMethod** | [**SubtitleDeliveryMethod**](SubtitleDeliveryMethod.md) |  | [optional] 
+**DeliveryUrl** | Pointer to **string** | Gets or sets the delivery URL. | [optional] 
+**IsExternalUrl** | Pointer to **bool** | Gets or sets a value indicating whether this instance is external URL. | [optional] 
+**IsTextSubtitleStream** | **bool** |  | [optional] [readonly] 
+**SupportsExternalStream** | **bool** | Gets or sets a value indicating whether [supports external stream]. | [optional] 
+**Path** | Pointer to **string** | Gets or sets the filename. | [optional] 
+**PixelFormat** | Pointer to **string** | Gets or sets the pixel format. | [optional] 
+**Level** | Pointer to **float64** | Gets or sets the level. | [optional] 
+**IsAnamorphic** | Pointer to **bool** | Gets a value indicating whether this instance is anamorphic. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
